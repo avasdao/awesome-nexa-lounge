@@ -1,14 +1,15 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
+	"$schema": "node_modules/wrangler/config-schema.json",
   "name": "awesomenexa-lounge",
-  "compatibility_date": "2025-04-24",
-  "compatibility_flags": [
-	  "nodejs_compat"
-  ],
-  "pages_build_output_dir": "./dist",
-  "observability": {
-	  "enabled": true
-  },
+  "main": "./.output/server/index.mjs",
+	"compatibility_date": "2025-04-24",
+	"assets": {
+		"binding": "ASSETS",
+		"directory": "./.output/public/"
+	},
+	"observability": {
+		"enabled": true
+	},
   "routes": [
     {
       "pattern": "lounge.awesomenexa.com",
