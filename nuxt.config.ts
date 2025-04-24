@@ -13,9 +13,6 @@ export default defineNuxtConfig({
             link: [
                 { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
             ],
-            script: [
-                { src: '/js/matomo.js' },
-            ],
         },
     },
 
@@ -28,7 +25,7 @@ export default defineNuxtConfig({
         '@pinia/nuxt',
 
         /* Internationalization for Nuxt */
-        '@nuxtjs/i18n',
+        // '@nuxtjs/i18n',
     ],
 
     /* Route Rules */
@@ -37,4 +34,7 @@ export default defineNuxtConfig({
         // NOTE: We need this to make <token>.json files available to web apps.
         '/**': { cors: true },
     },
+
+    /* Set compatibility date. */
+    compatibilityDate: '2025-04-15',
 })
