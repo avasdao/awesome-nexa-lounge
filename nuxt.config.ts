@@ -6,13 +6,22 @@ export default defineNuxtConfig({
         head: {
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
-            title: 'Lounge: A Place For Personas',
+            title: 'Lounge: A Safu Space For Personas',
             meta: [
-                { name: 'description', content: 'A Place For Personas.' },
+                { name: 'description', content: 'A Safu Space For Personas.' },
             ],
             link: [
                 { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
             ],
+        },
+    },
+
+    /* Nitro Configuration */
+    nitro: {
+        preset: 'cloudflare-pages',
+        cloudflare: {
+            deployConfig: true,
+            nodeCompat: true,
         },
     },
 
@@ -25,7 +34,10 @@ export default defineNuxtConfig({
         '@pinia/nuxt',
 
         /* Internationalization for Nuxt */
-        // '@nuxtjs/i18n',
+        '@nuxtjs/i18n',
+
+        /* Cloudflare Pages */
+        'nitro-cloudflare-dev',
     ],
 
     /* Route Rules */
@@ -35,6 +47,6 @@ export default defineNuxtConfig({
         '/**': { cors: true },
     },
 
-    /* Set compatibility date. */
+    /* Compatibility Date */
     compatibilityDate: '2025-04-15',
 })

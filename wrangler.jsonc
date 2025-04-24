@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "awesomenexa-lounge",
+  "compatibility_date": "2025-04-24",
+  "pages_build_output_dir": "./dist",
+  "observability": {
+	"enabled": true
+  },
+  "routes": [
+    {
+      "pattern": "lounge.awesomenexa.com",
+	  "custom_domain": true
+	}
+  ]
+}

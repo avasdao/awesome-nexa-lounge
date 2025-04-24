@@ -1,5 +1,5 @@
 {
-  "name": "studio-lounge",
+  "name": "awesome-nexa-lounge",
   "version": "25.4.23",
   "license": "MIT",
   "scripts": {
@@ -10,18 +10,22 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@cloudflare/workers-types": "4.20250424.0",
     "@intlify/message-compiler": "11.1.3",
     "@kevinmarrec/nuxt-pwa": "0.17.0",
     "@nuxtjs/i18n": "9.0.0",
     "@nuxtjs/tailwindcss": "6.12.1",
     "@pinia/nuxt": "0.4.7",
     "fflate": "0.8.2",
+    "h3": "1.15.1",
     "moment": "2.29.4",
     "nexajs": "24.11.15",
+    "nitro-cloudflare-dev": "0.2.2",
     "numeral": "2.0.6",
     "nuxt": "3.12.4",
     "pinia": "2.2.2",
-    "uuid": "10.0.0"
+    "uuid": "10.0.0",
+    "wrangler": "4.13.0"
   },
   "packageManager": "pnpm@9.15.4",
   "engines": {

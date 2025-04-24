@@ -2,7 +2,7 @@
 useHead({
     title: `Characters — Lounge`,
     meta: [
-        { name: 'description', content: `A Place For Personas.` }
+        { name: 'description', content: `A Safu Space For Personas.` }
     ],
 })
 
