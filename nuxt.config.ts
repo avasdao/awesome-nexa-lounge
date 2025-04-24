@@ -6,9 +6,9 @@ export default defineNuxtConfig({
         head: {
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
-            title: 'Wisebox: The Swiss Army Knife of Smart Contracts',
+            title: 'Lounge: A Place For Personas',
             meta: [
-                { name: 'description', content: 'Wisebox makes building your next BIG idea effortless.' },
+                { name: 'description', content: 'A Place For Personas.' },
             ],
             link: [
                 { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

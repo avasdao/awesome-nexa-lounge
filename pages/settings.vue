@@ -1,8 +1,8 @@
 <script setup lang="ts">
 useHead({
-    title: `Settings — Wisebox`,
+    title: `Settings — Lounge`,
     meta: [
-        { name: 'description', content: `Wisebox makes building your next BIG idea effortless.` }
+        { name: 'description', content: `A Place For Personas.` }
     ],
 })
 
