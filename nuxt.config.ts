@@ -16,15 +16,6 @@ export default defineNuxtConfig({
         },
     },
 
-    /* Nitro Configuration */
-    nitro: {
-        preset: 'cloudflare-pages',
-        cloudflare: {
-            deployConfig: true,
-            nodeCompat: true,
-        },
-    },
-
     /* Application Modules */
     modules: [
         /* Tailwind CSS */
@@ -37,7 +28,7 @@ export default defineNuxtConfig({
         '@nuxtjs/i18n',
 
         /* Cloudflare Pages */
-        'nitro-cloudflare-dev',
+        // 'nitro-cloudflare-dev',
     ],
 
     /* Route Rules */
