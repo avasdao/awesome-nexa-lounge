@@ -7,6 +7,8 @@ const Profile = useProfileStore()
 const System = useSystemStore()
 const Wallet = useWalletStore()
 
+const showProfileMenu = ref(false)
+
 onBeforeMount(() => {
     // TODO Move this block to @nexajs/app
     try {
