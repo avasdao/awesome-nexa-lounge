@@ -3,10 +3,6 @@
   "name": "awesomenexa-lounge",
   "main": "./.output/server/index.mjs",
 	"compatibility_date": "2025-04-24",
-	"assets": {
-		"binding": "ASSETS",
-		"directory": "./.output/public/"
-	},
 	"observability": {
 		"enabled": true
 	},
