@@ -1,5 +1,5 @@
-# Nexa Studio Lounge
+# The Nexa Lounge in Trilemma, ZKP
 
-### https://lounge.nexa.studio
+### https://lounge.awesomenexa.org
 
 Manage Your Personas In-Style

@@ -135,7 +135,7 @@ const build = async () => {
     <section class="block grid grid-cols-5 gap-6">
         <div class="col-span-3">
             <h1 class="text-fuchsia-800 text-6xl lg:text-7xl font-light italic">
-                Studio Lounge
+                The Nexa Lounge in Trilemma, ZKP
             </h1>
 
             <h3 class="pl-5 text-fuchsia-600 text-xl lg:text-2xl font-medium tracking-tight">
@@ -143,7 +143,9 @@ const build = async () => {
             </h3>
 
             <p class="mt-2 lg:mt-5 text-sm lg:text-base">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id eius voluptatem minus natus at eveniet dolorum eos mollitia, maxime animi excepturi harum omnis illum odit recusandae pariatur! Unde, explicabo molestias.
+                Create and customize your Persona in an immersive virtual world.
+                Connect with friends, explore endless possibilities, and experience a new way of interaction.
+                Join the future of digital life today!
             </p>
         </div>
 
