@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-    title: `AI Generator — Lounge`,
+    title: `Private Suites — Lounge`,
     meta: [
         { name: 'description', content: `A Safu Space For Personas.` }
     ],
@@ -24,15 +24,15 @@ const System = useSystemStore()
 <template>
     <main class="flex flex-col gap-4">
         <h1 class="text-5xl font-medium">
-            AI Generator
+            Private Suites
         </h1>
 
         <p>
-            Find the perfect backdrop for your NFT masterpiece.
+            A safu space for your Personas to kick back and relax, in style.
         </p>
 
         <ol class="pl-10 list-decimal">
-            <li>https://backgrounds.com</li>
+            <li>Create a NEW Persona</li>
         </ol>
     </main>
 </template>
