@@ -135,10 +135,7 @@ const build = async () => {
     <section class="block grid grid-cols-5 gap-6">
         <div class="col-span-3">
             <h1 class="text-fuchsia-800 text-6xl lg:text-7xl font-light italic">
-                The Nexa Lounge
-                <small class="hidden pl-5 block text-2xl">
-                    in Trilemma, ZKP
-                </small>
+                The Trilemma Lounge
             </h1>
 
             <h3 class="pl-5 text-fuchsia-600 text-xl lg:text-2xl font-medium tracking-tight">

@@ -1,4 +1,4 @@
-# The Nexa Lounge in Trilemma, ZKP
+# The Trilemma Lounge
 
 ### https://lounge.awesomenexa.org
 
