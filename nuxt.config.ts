@@ -6,7 +6,7 @@ export default defineNuxtConfig({
         head: {
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
-            title: 'The Trilemma Lounge',
+            title: 'The Trilemma Lounge by Awesome Nexa',
             meta: [
                 { name: 'description', content: 'A Safu space for your digital Personas.' },
             ],
