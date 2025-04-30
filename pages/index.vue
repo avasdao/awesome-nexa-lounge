@@ -134,11 +134,11 @@ const build = async () => {
 <template>
     <section class="block grid grid-cols-5 gap-6">
         <div class="col-span-3">
-            <h1 class="text-fuchsia-800 text-6xl lg:text-7xl font-light">
+            <h1 class="text-fuchsia-800 text-5xl lg:text-6xl font-light">
                 The Trilemma Lounge
             </h1>
 
-            <h3 class="pl-5 text-fuchsia-600 text-xl lg:text-2xl font-medium tracking-tight">
+            <h3 class="pl-5 text-fuchsia-600 text-xl lg:text-2xl font-medium tracking-tight italic">
                 Manage Your Personas In-Style
             </h3>
 
