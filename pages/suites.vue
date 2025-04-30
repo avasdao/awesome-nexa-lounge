@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-    title: `Private Suites — Lounge`,
+    title: `Private Suites — The Trilemma Lounge`,
     meta: [
         { name: 'description', content: `A Safu Space For Personas.` }
     ],

@@ -36,8 +36,8 @@ const props = defineProps({
                     You MUST record the 12 word seed phrase from your wallet, or you risk PERMANENTLY LOSING the ability to manage your Collection(s).
                 </p>
 
-                <NuxtLink to="/wallet" class="mt-2 w-fit flex text-base text-red-800 font-medium hover:text-red-600">
-                    go to My Wallet
+                <NuxtLink to="/" class="mt-2 w-fit flex text-base text-red-800 font-medium hover:text-red-600">
+                    go to My Lobby
                 </NuxtLink>
             </div>
         </div>

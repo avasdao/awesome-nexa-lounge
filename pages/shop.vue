@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-    title: `Characters — Lounge`,
+    title: `Shop — The Trilemma Lounge`,
     meta: [
         { name: 'description', content: `A Safu Space For Personas.` }
     ],

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-    title: `Token Apps (tApps) — Lounge`,
+    title: `Apps  — The Trilemma Lounge`,
     meta: [
         { name: 'description', content: `A Safu Space For Personas.` }
     ],

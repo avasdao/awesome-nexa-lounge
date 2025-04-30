@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-    title: `Settings — The Trilemma Lounge`,
+    title: `Concierge — The Trilemma Lounge`,
     meta: [
         { name: 'description', content: `A Safu Space For Personas.` }
     ],
@@ -24,11 +24,15 @@ const System = useSystemStore()
 <template>
     <main class="flex flex-col gap-4">
         <h1 class="text-5xl font-medium">
-            Settings
+            Concierge
         </h1>
 
         <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id eius voluptatem minus natus at eveniet dolorum eos mollitia, maxime animi excepturi harum omnis illum odit recusandae pariatur! Unde, explicabo molestias.
+            A safu space for your Personas to kick back and relax, in style.
         </p>
+
+        <ol class="pl-10 list-decimal">
+            <li>Create a NEW Persona</li>
+        </ol>
     </main>
 </template>
